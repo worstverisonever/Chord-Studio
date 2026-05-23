@@ -1,0 +1,108 @@
+
+body{
+    margin:4%;
+    padding:2px;
+}
+header{
+    background-color: rgb(179, 177, 177);
+    background-image: url('../images/flywheel.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   padding:5px;
+}
+nav a{
+    box-sizing:border-box;
+    display:inline-block;
+    text-align: center;
+  margin:2px 1% 2% 8%;
+    border:rgb(196, 194, 194) solid 1px;
+    border-radius: 5px;
+    padding:15px 40px;
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+    background-color: rgba(196, 194, 194, 0.60);
+    width:15%;
+  
+}
+.active{
+    background-color: #fff;
+}
+
+h1{
+    color:#fff;
+    text-align: center;
+    text-transform: uppercase;
+   font-size: 225%;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    color:rgb(4, 110, 22);
+    text-transform: uppercase;
+}
+/*using grid*/
+
+main{
+    display:grid;
+    grid-template-columns: 20% 80%;
+}
+.left{
+    display:grid;
+    grid-template-columns: 1fr;
+    background-color: silver;
+    align-items: center;
+    justify-items: center;
+    padding:4%;
+}
+.left img{
+  border:black solid;
+    margin: 8%;
+    width:80%;
+}
+.right{
+    margin:2%;
+    font-size: 115%;
+}
+/*Styling Table*/
+table{
+   line-height: 1.5em;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 7px;
+    margin: 0 auto;
+    width: 80%;
+}
+table th{
+    border: solid 2px #20303d;
+    border-bottom: solid 4px #243746;
+    -moz-background: linear-gradient(#293f50 70%,#527b9b);
+    -webkit-background: linear-gradient(#293f50 70%,#527b9b);
+    -o-background: linear-gradient(#293f50 70%,#527b9b);
+    -ms-background: linear-gradient(#293f50 70%,#527b9b);
+    background: linear-gradient(#293f50 70%,#527b9b);
+    color:#fff ;
+   padding: 6px 9px 6px 9px;
+   border-radius: 5px 5px 0px 0px;
+}
+table td,table th{
+    text-align: center;
+}
+ td:first-child,th:first-child{
+    text-align: left;
+}
+table tr{
+    opacity: .8;
+}
+table tr:hover{
+    opacity: 1.2;
+}
+table td{
+    background-color:#527b9b ;
+    color:#fff;
+    padding:7px;
+    border-radius: 2px;
+    font-family:sans-serif;
+    text-shadow:1px 1px 8px rgb(0, 0, 0) ;
+}
+table tr:last-child>td{
+    border-radius: 0px 0px 5px 5px;
+}

@@ -1,0 +1,101 @@
+
+h1{
+    color:#000000;
+    
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:175%;
+  
+    
+}
+header,footer{
+background-color: cornflowerblue ;
+background: -moz-linear-gradient(#7aa2ee 0%,#cacafd);
+background: -o-linear-gradient(#7aa2ee 0%,#cacafd);
+background: -webkit-linear-gradient(#5a8ff0 0%,#cacafd);
+background: linear-gradient(#6999f1 0%,#cacafd);
+}
+header{  border:black solid;
+   
+    text-align: center;
+    padding-top:2px;
+padding-bottom: 15px;}
+/*using grid to style it*/
+/*#pgrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}*/
+/*using table-cell*/
+/*
+section{
+    display:table-cell;
+    width:30%;
+}*/
+/*using inline-box*/
+/*.grid{
+   margin: 2px;
+  width:49%;
+   float:left;
+    
+
+}
+#MAM{
+    clear:both;
+}*/
+ /*using inline-block to style it*/
+section{
+    displaY:inline-block;
+    width:30% ;
+    margin-right: 2%;
+}
+
+body{
+    background-color: beige;
+    margin: 4%;
+
+}
+nav{
+    font-size:150%;
+font-variant:small-caps ;
+    
+}
+nav a{
+    width:20%;
+background-color:rgb(169, 253, 242);
+    display: inline-block;
+    border-radius:10px;
+}
+a{
+    margin:2px;
+}
+h2{
+    color:black;
+    background-color: rgb(115, 230, 201);
+    font-size:xx-large;
+    width:fit-content;
+}
+details{
+    font-style: italic;
+}
+summary{
+    font-style: normal;
+    font-size: 120%;
+}
+footer{
+   
+    font-size: 120%;
+    padding-bottom: 1em;
+    padding-left:1em;
+}
+/*#Achievements,#food,#MAM{
+    
+    width:fit-content;
+    box-sizing: border-box;
+    padding: 1em;
+    margin: auto;
+    
+}*/
+img{
+    width:80px;
+}

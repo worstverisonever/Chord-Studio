@@ -1,0 +1,73 @@
+header{
+    background-color: #fff;
+   padding:15px;
+
+padding-bottom: 0px;
+padding-top: 8px;
+}
+header h1{
+    
+    font-size: 110%;
+    display:inline-block;
+    margin-left: 5px;
+    margin-right: 15%;
+    position: relative;
+    bottom: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header img{
+   
+    margin-left: 8%;
+    width:3%;
+}
+header nav{
+    display: inline-block;
+}
+nav a{text-decoration: none;
+    margin-right:40px;
+    position: relative;
+    bottom: 14px;
+font-size: 120%;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: rgb(2, 2, 116);
+}
+#main{
+    color:rgb(31, 201, 31);
+}
+#fir{
+    width:100%;
+    height:400px;
+   /* background-image: url(https://c0.wallpaperflare.com/preview/215/809/296/education-graduation-knowledge-open.jpg) ;
+background-repeat: no-repeat;
+background-size:contain;
+background-position: center;*/
+}
+#fir img{
+  width:100%;
+  height:100%;
+  opacity: 0.4;
+  z-index: 0.1;
+}
+#fir{box-sizing: border-box;
+    background:linear-gradient(0.25turn,rgb(1, 1, 49),rgba(255, 255, 255, 0)) ;
+/*padding-left:20px;
+padding-right:20px;*/
+  width: 80%;
+  height: 600px;
+  position: relative;
+  left:4em;
+}
+#fir p{color:#fff;
+    position:absolute;
+    bottom:370px;
+    left:80px;
+    z-index: 1;
+    font-size: 130%;
+}
+#fir h1{color:#fff;
+    position:absolute;
+    bottom:330px;
+    left:80px;
+    z-index: 1;
+    font-size: 190%;
+}

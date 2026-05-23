@@ -1,0 +1,55 @@
+.wrap{
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    justify-items: center;
+    align-items: center;
+  
+}
+#mo{
+width: 100px;
+height:200px;
+display: inline-block;
+background-color: blue;
+}
+#ch{ width: 100px;
+height:200px;
+display: inline-block;
+background-color: rgb(132, 132, 245);
+}
+#at{ width: 100px;
+height:200px;
+display: inline-block;
+background-color: rgb(198, 198, 253);
+}
+#an{ width: 100px;
+height:200px;
+display: inline-block;
+background-color:rgb(2, 168, 2);
+
+}
+#lo{ width: 100px;
+height:200px;
+display: inline-block;
+background-color: rgb(211, 71, 204)}
+#ou{
+width: 100px;
+height:200px;
+display: inline-block;
+background-color: limegreen;
+}
+#comp{   width: 100px;
+height:200px;
+display: inline-block;
+background-color: orange;
+
+}
+#lem{   width: 100px;
+height:200px;
+display: inline-block;
+background-color: yellow;}
+#ta{   width: 100px;
+height:200px;
+display: inline-block;
+background-color: rgb(123, 255, 0);}
